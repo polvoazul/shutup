@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "shutup"
 version = "0.1.0"
-description = ""
-authors = ["Fred Israel <fredpublico@gmail.com>"]
+description = "Stop python warnings, no matter what!"
+authors = ["@polvoazul / Fred Israel <fredpublico@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
