@@ -1,4 +1,7 @@
-__version__ = '0.1.1'
+from importlib.metadata import version
+try: __version__ = version(__name__)
+except: pass
+del version
 
 def please():
     import warnings
