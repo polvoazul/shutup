@@ -2,10 +2,10 @@
 name = "shutup"
 version = "0.1.0"
 description = "Stop python warnings, no matter what!"
-authors = ["@polvoazul / Fred Israel <fredpublico@gmail.com>"]
+authors = ["Fred Israel <fredpublico@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
