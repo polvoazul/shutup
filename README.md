@@ -17,3 +17,10 @@ import shutup; shutup.please()
 ```
 
 That's it. Enjoy the silence :)
+
+
+---
+
+## Contributions
+
+If your warnings were not silenced, please open an issue. PRs, ideas and other contributions are also welcome.
