@@ -1,5 +1,6 @@
-from importlib.metadata import version as _version
-try: __version__ = _version(__name__)
+try:
+    from importlib.metadata import version as _version
+    __version__ = _version(__name__)
 except Exception: pass
 
 def please():
