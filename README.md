@@ -10,7 +10,7 @@ pip install shutup
 
 ## Basic Use
 
-On the beggining of your code (before you import other things), add this line:
+On the beginning of your code (before you import other things), add this line:
 
 ```python
 import shutup; shutup.please()
@@ -28,7 +28,7 @@ If your warnings were not silenced, please open an issue. PRs, ideas and other c
 
 ## Other features
 
-### Unmuting
+### Unmutting
 You can use:
 
 ```python
@@ -48,7 +48,7 @@ shutup.unmute_warnings()
 They are the same as the functions above, but they have cleaner (but arguably less funny) names.
 
 ### Context Managers
-Use as context managers is also supported:
+Context managers are also supported:
 
 ```python
 import shutup
@@ -66,12 +66,8 @@ with shutup.mute_warnings: # correct
 with shutup.mute_warnings(): # wrong
 ```
 
-and not
-
-`with shutup.mute_warnings()`
-
-At the end of the context manager warnings 'muteness' will return to the state befor entering.
+At the end of the context manager warnings 'muteness' will return to the state before entering.
 
 ### Finally, this package needs its own warning! 🤦
 
-Warning: Note that muting and unmuting is not a thread safe operation.
+Warning: Note that muting and unmutting is not a thread safe operation.
