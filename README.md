@@ -66,8 +66,8 @@ with shutup.mute_warnings: # correct
 with shutup.mute_warnings(): # wrong
 ```
 
-At the end of the context manager warnings 'muteness' will return to the state before entering.
+When context managers exit, they will reset warnings to muted/unmuted based on their state before entering.
 
 ### Finally, this package needs its own warning! 🤦
 
-Warning: Note that muting and unmutting is not a thread safe operation.
+> :warning: Note that muting and unmutting is **not a thread safe operation**.
