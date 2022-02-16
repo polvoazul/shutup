@@ -10,7 +10,7 @@ pip install shutup
 
 ## Basic Use
 
-On the beginning of your code (before you import other things), add this line:
+At the beginning of your code (before you import other things), add this line:
 
 ```python
 import shutup; shutup.please()
