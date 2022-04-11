@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: WTFPL
 try:
     from importlib.metadata import version as _version
     __version__ = _version(__name__)
