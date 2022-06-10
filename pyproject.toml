@@ -3,6 +3,7 @@ name = "shutup"
 version = "0.2.0"
 description = "Stop python warnings, no matter what!"
 authors = ["Fred Israel <fredpublico@gmail.com>"]
+license = "WTFPL"
 
 [tool.poetry.dependencies]
 python = "^3.5"
