@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "shutup"
-version = "0.2.0"
+version = "0.3.0"
 description = "Stop python warnings, no matter what!"
 authors = ["Fred Israel <fredpublico@gmail.com>"]
 license = "WTFPL"
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = ">=3.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
